@@ -1,8 +1,16 @@
-import { ModeToggle } from '@/components/mode-toogle'
+import Navbar from "@/components/navbar"
+import AddBookDialog from "@/components/addBookDialog"
+import BooksSection from "@/components/booksSection";
 
 function App() {
 
-  return <><ModeToggle /></>
+  return (
+    <>
+      <Navbar />
+      <AddBookDialog />
+      <BooksSection />
+    </>
+  );
 }
 
 export default App
